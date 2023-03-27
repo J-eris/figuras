@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header id="title">
+		<h1>CALCULO DE FIGURAS GEOMETRICAS</h1>
+	</header>
+	<div>
+		<section id="triangle">
+			<h2 id="titleCalcular">Calcular el perímetro y el área de un triangulo</h2>
+			<form action="">
+				<label for="">Escribe cuanto mide cada lado del triangulo</label> <br>
+				<label for="lado1">Ingrese lado 1</label> <input type="text" name="lado" id="lado1">
+				<label for="lado2">Ingrese lado 2</label> <input type="text" name="lado" id="lado2">
+				<label for="base">Ingrese su base</label> <input type="text" name="lado" id="base">
+				<div class="btnCalculos"> <br>
+					<button id="btnPeri" onclick="clickBtnPerimetro()" type="button">Calcular perimetro</button>
+					<button id="btnArea" onclick="clickBtnArea()" type="button">Calcular área</button>
+				</div>
+			</form> <br>
+			<div id="mostrarPerimetroTriangulo"></div> <br>
+			<div id="mostrarAreaTriangulo"></div> <br>
+		</section>
+	</div>
+
+	<script src="./figuras.js"></script>
+</body>
+
+</html>
