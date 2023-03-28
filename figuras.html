@@ -14,13 +14,29 @@
 		<h1>CALCULO DE FIGURAS GEOMETRICAS</h1>
 	</header>
 	<div>
+		<section id="cuadrado">
+			<h2 id="titleCuadrado">Calcula el área y perimetro de un cuadrado</h2>
+			<form action="">
+				<label for="inputCuadrado">
+					Escribe cuanto miden cada lado de tu cuadrado:
+				</label>
+				<input id="inputCuadrado" type="number" name="inputCuadrado">
+				<div class="btnCuadrado"> <br>
+					<button type="button" id="btnCuaPeri" onclick="calcularPerimetroCuadrado()">Calcular perimetro</button>
+					<button type="button" id="btnCuaArea" onclick="calcularAreaCuadrado()">Calcular área</button>
+				</div>
+			</form> <br>
+			<div id="mostrarPerimetro"></div> <br>
+			<div id="mostrarArea"></div>
+		</section>
+	
 		<section id="triangle">
 			<h2 id="titleCalcular">Calcular el perímetro y el área de un triangulo</h2>
 			<form action="">
 				<label for="">Escribe cuanto mide cada lado del triangulo</label> <br>
-				<label for="lado1">Ingrese lado 1</label> <input type="text" name="lado" id="lado1">
-				<label for="lado2">Ingrese lado 2</label> <input type="text" name="lado" id="lado2">
-				<label for="base">Ingrese su base</label> <input type="text" name="lado" id="base">
+				<label for="lado1">Ingrese lado 1</label> <input type="number" name="lado" id="lado1">
+				<label for="lado2">Ingrese lado 2</label> <input type="number" name="lado" id="lado2">
+				<label for="base">Ingrese su base</label> <input type="number" name="lado" id="base">
 				<div class="btnCalculos"> <br>
 					<button id="btnPeri" onclick="clickBtnPerimetro()" type="button">Calcular perimetro</button>
 					<button id="btnArea" onclick="clickBtnArea()" type="button">Calcular área</button>

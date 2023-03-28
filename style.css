@@ -14,7 +14,7 @@ body {
 	width: 100%;
 }
 
-#triangle {
+#cuadrado, #triangle {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: cadetblue;	
 	border-radius: 20px;
@@ -29,41 +29,25 @@ body {
 	padding: 20px 10px 10px 10px;
 }
 
-#titleCalcular {
+#titleCalcular, #titleCuadrado {
 	text-align: center;
 }
 
-.btnCalculos {
+.btnCuadrado, .btnCalculos {
 	text-align: center;
 }
 
-#btnPeri {
+#btnPeri, #btnArea, #btnCuaPeri, #btnCuaArea {
 	background-color: lightseagreen;
 	color: black;
 	border-radius: 20px;
-	width: 15%;
+	width: auto;
 	padding: 5px;
 }
 
-#btnPeri:hover {
+#btnPeri:hover, #btnArea:hover, #btnCuaPeri:hover, #btnCuaArea:hover {
 	background-color: blue;
 	color: aliceblue;
 	border-radius: 20px;
 	box-shadow: 0px 2px 15px 3px black;
-}
-
-#btnArea {
-	background-color: lightseagreen;
-	color: black;
-	border-radius: 20px;
-	width: 15%;
-	padding: 5px;
-}
-
-#btnArea:hover {
-	background-color: blue;
-	color: aliceblue;
-	border-radius: 20px;
-	box-shadow: 0px 2px 15px 3px black;
-
 }
